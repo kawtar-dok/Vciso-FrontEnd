@@ -1,0 +1,135 @@
+.LoginScreen {
+    position: relative;
+    height: 100%;
+    background: url('https://i.pinimg.com/originals/43/82/00/4382001d4a18f67dee5bb801723718ee.jpg') center no-repeat;
+    background-size: cover;
+}
+.LoginScreen__logo {
+    position: fixed;
+    left: 0;
+    width: 190px;
+    object-fit: contain;
+    padding-left: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+   
+}
+.LoginScreen__gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba( 0, 0 , 0 , 0.6);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+.LoginScreen__button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #89A9A3;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+   
+}
+.LoginScreen__button::before,
+.LoginScreen__button::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  background: linear-gradient(45deg,#fff,#34A976,#89A9A3,rgba(247, 247, 25, 0.963),#3C534F,#286CA0);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: animate 25s linear infinite;
+}
+
+.LoginScreen__button::after {
+  filter: blur(25px);
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+.LoginScreen__body {
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px ;
+    left: 0;
+    right: 0;
+}
+.LoginScreen__body > h1 {
+    font-size : 3.125rem;
+    margin-bottom: 20px;
+    
+}
+.LoginScreen__body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.LoginScreen__body > h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #00ED82;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+
+}
+.LoginScreen__input {
+    margin: 20px;
+    
+}
+.LoginScreen__input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 31px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.LoginScreen__getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    background-color: #00ED82;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.LoginScreen__getStart {
+
+    padding: 16px 20px;
+    font-size: 1rem;
+    background-color: #00ED82;
+    color: #fff;
+    width: 50%;
+    border: none;
+    max-width: 600px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px;
+}
