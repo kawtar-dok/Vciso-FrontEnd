@@ -1,8 +1,13 @@
 import React from 'react'
 import './SignInScreen.css'
+import { motion } from "framer-motion"
+
 function SignInScreen() {
   return (
-    <div className='SignInScreen'>
+    <motion.div className='SignInScreen'
+                  whileHover={{ 
+                scale: 1.1
+               }}>
         <form>
             <h1>Sign In</h1>
             <input placeholder='Email' type='email' />
@@ -14,7 +19,7 @@ function SignInScreen() {
               <span className='SignupScreen__link'>Sign Up Now.</span>
             </h4>
         </form>
-    </div>
+    </motion.div>
   )
 }
 
