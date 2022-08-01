@@ -1,16 +1,24 @@
 .LoginScreen {
     position: relative;
     height: 100%;
-    background: url('https://i.pinimg.com/originals/43/82/00/4382001d4a18f67dee5bb801723718ee.jpg') center no-repeat;
-    background-size: cover;
+    
 }
+.LoginScreen__background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 .LoginScreen__logo {
     position: fixed;
     left: 0;
-    width: 190px;
+    width: 170px;
     object-fit: contain;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
     cursor: pointer;
    
 }
@@ -85,17 +93,17 @@
 
 
 .LoginScreen__body > h1 {
-    font-size : 3.125rem;
+    font-size : 3.5em;
     margin-bottom: 20px;
     
 }
 .LoginScreen__body > h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 .LoginScreen__body > h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #00ED82;
     font-family: 'Graphik Web', 'Graphik', sans-serif;
