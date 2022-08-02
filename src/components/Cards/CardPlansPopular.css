@@ -1,0 +1,118 @@
+.CardPlansPopular {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+    max-width: 270px;
+    padding: 50px;
+    margin-top: -450px;
+    margin-left: 550px;
+    background-color: #fff;
+    
+}
+.CardPlansPopular__buttonPopular {
+    padding: 5px 20px 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 0.6875rem;
+    background-color: #00ED82; 
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.CardPlansPopular__input > h3 {
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    color: #272c35;
+    font-feature-settings: 'liga', 'kern';
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0 -12px 8px;
+    font-size: 1.75rem;
+}
+.CardPlansPopular__input > h4 {
+    font-size:1rem;
+    font-weight: bold;
+    color: #00ED82;
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+}
+.CardPlansPopular__button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #272c35; 
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 100%;
+    max-width: 280px;
+
+}
+.CardPlansPopular > h4 {
+    display: flex;
+    align-items: center;
+    color: #272c35;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+.CardPlansPopular__price {
+    font-size: 2rem;
+    letter-spacing: -0.03125rem;
+    line-height: 2.34375rem;
+    align-items: center;
+    color: #272c35;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    width: 50%;
+    margin: 0;
+    font-feature-settings: 'liga', 'kern';
+    padding: 0 5px ;
+    
+}
+.CardPlansPopular__period {
+    font-size: 1.125rem;
+    line-height: 1.318125rem;
+    letter-spacing: -0.03125rem;
+    margin-left: 0.25rem;
+}
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.CardPlansPopular__description {
+    color: #636e85;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    line-height: 1.5em;
+    padding: 10px 0 0;
+    font-feature-settings: 'liga', 'kern';
+    text-align: center;
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+}

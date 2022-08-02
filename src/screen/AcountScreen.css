@@ -1,0 +1,111 @@
+.AcountScreen {
+    position: relative;
+    height: 100%;
+}
+.AcountScreen__background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.AcountScreen__body {
+    position: absolute;
+    margin-top: -270px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 100px ;
+    left: 0;
+    right: 0;
+}
+.AcountScreen__body > h1 {
+    font-size : 2.8em;
+    margin-bottom: 20px; 
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+}
+.AcountScreen__body > h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+}
+.AcountScreen__Up {
+    position: relative;
+    margin-top: 220px;
+    max-width: 570px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: whitesmoke; 
+    border-radius: 10px;  
+}
+
+.AcountScreen__Up > form {
+    display: grid;
+    flex-direction: column;
+}
+.AcountScreen__Up > form > h1{
+   text-align: left;
+   
+}
+.AcountScreen__Up > form > label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #5C8484;
+    text-transform: uppercase;
+    
+   
+}
+.AcountScreen__Up > form > input {
+    padding: 5px 15px;
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 5px;
+}
+.AcountScreen__Up > form > select {
+    padding: 5px 15px;
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 5px;
+}
+.AcountScreen__Up > form > button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #5C9F93;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.AcountScreen__Up > form > h4 {
+    text-align: left;
+    margin-top: 30px;
+}
+.AcountScreen__gray {
+    color: #405858;
+    font-size: 0.85rem;
+}
+.AcountScreen__link:hover {
+     cursor: pointer;
+     text-decoration: underline;
+}
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+  }

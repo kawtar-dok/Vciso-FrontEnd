@@ -9,7 +9,7 @@ function HomeScreen() {
     <div className="HomeScreen">
         
         {/*Nav */ }
-       <Nav/>
+         <Nav/>
         {/*Banner*/ }
         <LoginScreen />
 

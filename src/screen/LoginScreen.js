@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./LoginScreen.css";
-import SignInScreen from "../screen/SignInScreen";
 import { motion } from "framer-motion";
 
 //components
 
 import Particle from "../components/Particle";
 
+
 function LoginScreen() {
-  const [signIn, setSignIn] = useState(false);
+  const navigate = useNavigate();
   return (
     <header className="LoginScreen">
       
@@ -29,9 +30,7 @@ function LoginScreen() {
         //the duration ANIMATION IT'S work just if the type is TWEEN
         transition={{ delay: 1, duration: 1, type: "spring", stiffness: 50 }}
       >
-        {signIn ? (
-          <SignInScreen />
-        ) : (
+      
           <>
             <h1>Unlimited strategy, guidance, oversight and more.</h1>
             <h2>Accessible at full time</h2>
@@ -55,14 +54,14 @@ function LoginScreen() {
                   textShadow: "0px 0px 8px rgb(255,255,255)",
                   boxShadow: "0px 0px 8px rgb(255,255,255)",
                 }}
-                onClick={() => setSignIn(true)}
+                onClick={() => navigate('/signup')}
                 className="LoginScreen__getStart"
               >
                 Get Started
               </motion.button>
             </div>
           </>
-        )}
+       
       </motion.div>
     </header>
   );

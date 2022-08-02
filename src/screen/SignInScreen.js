@@ -1,12 +1,13 @@
 import React from 'react'
 import './SignInScreen.css'
 import { motion } from "framer-motion"
+import Particle from '../components/Particle'
+import Nav from '../components/Nav'
+import { Link } from "react-router-dom"
 
 function SignInScreen() {
+  
   //prevent default behavior of the button inside the form, a button do  his typicle refresh ... empecher le comportement par defaut
-   const register = (e) => {
-    e.preventDefault();
-   };
 
    const signIn = (e) => {
     e.preventDefault();
@@ -14,6 +15,12 @@ function SignInScreen() {
   
 
   return (
+    
+    <div className="SignInScreen__in">
+      <div className="SignInScreen__background">
+      <Particle />
+      </div> 
+      <Nav />
     <motion.div className='SignInScreen'
                   whileHover={{ 
                 scale: 1.1
@@ -27,10 +34,11 @@ function SignInScreen() {
             onClick={signIn}>Sign In</button>
             <h4>
               <span className='SignupScreen__gray'>New to Vciso? </span>
-              <span className='SignupScreen__link' onClick={register}>Sign Up Now.</span>
+              <Link to="/signup" className='SignupScreen__link'  >Sign Up Now. </Link>
             </h4>
         </form>
     </motion.div>
+    </div>
   )
 }
 

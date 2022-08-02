@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./Nav.css";
 import { motion } from "framer-motion";
 import companyLogo from "../assets/img/logo.png";
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Nav() {
 const [show, handleShow] = useState(false);
-//const navigate = useNavigate();
+const navigate = useNavigate();
 
 const transitionNavbar = () => {
     if(window.scrollY > 100) {
@@ -31,13 +31,13 @@ useEffect(() => {
     <div className={`nav ${show && "nav__black" }`}>
       <div classname="nav__contents">
        <img
-        
+        onClick={() => navigate('/')}
         alt=".."
         className="LoginScreen__logo"
         src={companyLogo}
       />
       <motion.button className="LoginScreen__button" 
-    //  onClick={() => navigate('/signin')}
+      onClick={() => navigate('/signin')}
         whileHover={{ 
               scale: 1.1,
               textShadow: "0px 0px 8px rgb(255,255,255)",
