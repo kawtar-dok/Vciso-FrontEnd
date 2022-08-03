@@ -1,8 +1,11 @@
 import React from 'react'
 import './HomeScreen.css'
-import Nav from '../components/Nav'
+import Nav from '../components/Navbar/Nav'
 import LoginScreen from './LoginScreen'
-import Cover from '../components/Cover'
+import Cover from '../components/Banner/Cover'
+import BannerDef from '../components/Banner/BannerDef'
+import BannerAbonner from '../components/Banner/BannerAbonner'
+//import Footer from '../components/Footers/Footer'
 
 function HomeScreen() {
   return (
@@ -12,45 +15,11 @@ function HomeScreen() {
          <Nav/>
         {/*Banner*/ }
         <LoginScreen />
-
         <Cover />
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-        <h1>tets</h1>
-              
+        <BannerDef />
+        <BannerAbonner />
+         {/*Footer<Footer />*/}
+        
     </div>
   )
 }

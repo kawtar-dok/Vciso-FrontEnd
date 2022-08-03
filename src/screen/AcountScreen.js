@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Nav from '../components/Nav'
+import Nav from '../components/Navbar/Nav'
 import "./AcountScreen.css"
-import Particle from "../components/Particle"
+import Particle from "../components/Tsparticules/Particle"
 
 function AcountScreen() {
   const signUp = (e) => {
@@ -15,12 +15,12 @@ function AcountScreen() {
 
   return (
     <>
-    <Nav />
+   
     <div className="AcountScreen">
       <div className="AcountScreen__background">
         <Particle />
       </div>
-    
+      <Nav />
       <div className="AcountScreen__body">
         <h1>Create Your Account</h1>
         <h3>Use your email and password.</h3>

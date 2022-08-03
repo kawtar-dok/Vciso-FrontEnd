@@ -1,6 +1,6 @@
 import React from "react"
-import Nav from '../components/Nav'
-import Particle from "../components/Particle"
+import Nav from '../components/Navbar/Nav'
+import Particle from "../components/Tsparticules/Particle"
 import "./SignUpScreen.css"
 import HeaderPlans from "../components/Header/HeaderPlans"
 

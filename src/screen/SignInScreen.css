@@ -1,5 +1,5 @@
 .SignInScreen{
-    margin-top: 150px;
+    margin-top: 130px;
     max-width: 270px;
     padding: 50px;
     margin-left: auto;
@@ -7,6 +7,14 @@
     background: #488484; 
     border-radius: 10px;  
 }
+.SignInScreen__in__image {
+    position: relative;
+    left: 380px;
+    bottom: 270px;
+    width: 20%;
+    padding: 10px 20px;
+  
+  }
 .SignInScreen__background {
     position: relative;
     top: 0;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./Nav.css";
+import "../Navbar/Nav.css";
 import { motion } from "framer-motion";
-import companyLogo from "../assets/img/logo.png";
+import companyLogo from "../../assets/img/logo.png";
 import { useNavigate } from "react-router-dom";
 
 function Nav() {
@@ -33,10 +33,10 @@ useEffect(() => {
        <img
         onClick={() => navigate('/')}
         alt=".."
-        className="LoginScreen__logo"
+        className="Nav__logo"
         src={companyLogo}
       />
-      <motion.button className="LoginScreen__button" 
+      <motion.button className="Nav__button" 
       onClick={() => navigate('/signin')}
         whileHover={{ 
               scale: 1.1,

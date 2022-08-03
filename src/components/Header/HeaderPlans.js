@@ -3,7 +3,7 @@ import React from "react";
 import CardPlans from "../Cards/CardPlans";
 import CardPlansPopular from "../Cards/CardPlansPopular";
 import CardVip from "../Cards/CardVip";
-
+//import '../Header/HeaderPlans.css';
 
 export default function HeaderPlans() {
   return (

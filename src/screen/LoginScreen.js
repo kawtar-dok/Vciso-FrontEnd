@@ -3,21 +3,23 @@ import { useNavigate } from "react-router-dom";
 import "./LoginScreen.css";
 import { motion } from "framer-motion";
 
+
 //components
 
-import Particle from "../components/Particle";
+import Particle from "../components/Tsparticules/Particle";
 
 
 function LoginScreen() {
   const navigate = useNavigate();
   return (
     <header className="LoginScreen">
+     
       
       <div className="LoginScreen__background">
       <Particle />
-        <div className="LoginScreen__gradient" />
+      <div className="LoginScreen__gradient"/>
       </div> 
-
+      
       <motion.div
         className="LoginScreen__body "
         //the initial stating point
