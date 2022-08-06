@@ -42,18 +42,18 @@
 
 
 .LoginScreen__body > h1 {
-    font-size : 3.4em;
+    font-size : 3.2em;
     margin-bottom: 20px;
    
 }
 .LoginScreen__body > h2 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     font-weight: 400;
     margin-bottom: 30px;
     font-family: 'Graphik Web', 'Graphik', sans-serif;
 }
 .LoginScreen__body > h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #00ED82;
     font-family: 'Graphik Web', 'Graphik', sans-serif;

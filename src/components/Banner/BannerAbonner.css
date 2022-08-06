@@ -1,11 +1,11 @@
 .BannerAbonner__background {
     position: absolute;
-    top: 190%;
+    top: 290%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
     z-index: -1;
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQji5kK_IPA1GEIb_2cwyqWn1l3YPKMjgU_2dZUN2NQekUxRw1tzG2xqrSpSE0d-VhsjvU&usqp=CAU') center no-repeat;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -42,3 +42,172 @@
     width: 20%;
     padding: 10px 20px;
 } 
+.BannerAbonner__Table {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1;
+    color: #fff;
+    padding: 100px ;
+    border-collapse: collapse;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    left: 0;
+    right: 0;
+    color: white;
+    border-color: #BBBECC;
+}
+
+.BannerAbonner__vip {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+   
+}
+.BannerAbonner__standard {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.BannerAbonner__Table > table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;;
+    width: 800px;
+    height: 600px;
+    left: 0;  
+    right: 0;
+    border-collapse: collapse;
+    
+ }
+.BannerAbonner__Table > table > thead {
+    position: relative;
+    height: 100px;
+    left: 0;
+    right: 0;
+ }
+.BannerAbonner__Table > th {
+    color: white;
+    border-bottom: 1px solid white;
+    border: 2px solid white;
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    
+}
+.BannerAbonner__td{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.BannerAbonner__Table > tbody > td {
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+   
+}
+.BannerAbonner__rowGreen {
+    text-align: center;
+    background: url('https://www.hulu.com/static/hitch/static/icons/Pricing_Checkmark_green-light.svg') center no-repeat;   
+}
+.BannerAbonner__rowRed {
+    text-align: center;
+    color: #BBBECC;
+}
+.BannerAbonner__Table__header > img {
+   width:  12%;
+   height: 20%;
+   margin-top: 20%;
+
+}
+.BannerAbonner__Table__header  {
+   text-align: justify;
+   margin-left: 2%;
+   top: 10px;
+   display: flex;
+}
+.BannerAbonner__Table__header > h4  {
+    margin-top: 19%;
+    margin-left: 2%;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #6fb5b5;
+ }
+.BannerAbonnerPopular__ui {
+    background-color: #272C35;
+    position: absolute;
+    margin-top: 100px;
+    bottom: 90px;
+    margin-left: 410px;
+    width: 0px;
+    height: 420px;
+    padding: 102px;
+    left: 26%;
+    right: 200%;
+ }
+.BannerAbonnerPopular__buttonPopular {
+    padding: 2px 10px 2px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 0.6875rem;
+    background-color: #00ED82; 
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+   
+}
+.BannerAbonnerPopular > h3 {
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    color: #272c35;
+    font-feature-settings: 'liga', 'kern';
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0 -12px 8px;
+    font-size: 1.75rem;
+}
+.BannerAbonnerPopular__input > h4 {
+    font-size:0.7rem;
+    font-weight: bold;
+    color: #00ED82;
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+}
+.BannerAbonnerPopular > h4 {
+    display: flex;
+    align-items: center;
+    color: #272c35;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+.BannerAbonnerPopular__button {
+    color:black ;
+    background-color:black ;
+    padding: 2px 10px 2px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 0.6875rem;
+    font-family: "Graphik Web", Helvetica, Arial, Verdana, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}

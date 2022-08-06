@@ -1,0 +1,40 @@
+.Footer {
+    color: white;
+    position: absolute;
+    top: 420%;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    z-index: -1;
+}
+
+
+.Footer__Bottom__text {
+    text-align: center;
+}
+.Footer__Bottom__legalLinks {
+    position: relative;
+    border-top: 2px solid var(--gray-7);
+    padding: 2px 0 0 0;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    line-height: 20px;
+    height: 30%;
+    margin-top: -5%;
+    z-index: 1;
+    margin-top: -3%;
+}
+.Footer__Facebook__Icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+.Footer__Bottom__text {
+    position: relative;
+    margin-top: 4%;
+}

@@ -1,81 +1,70 @@
 import React from "react";
-
-export default function Footer() {
+import "./Footer.css";
+function Footer() {
   return (
-    <>
-      <footer className="relative bg-blueGray-200 pt-8 pb-6">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: "translateZ(0)" }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-blueGray-200 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
+    <div className="Footer">
+     
+      {/* Footer Bottom */}
+        <div className="Footer__Bottom__legalLinks">
+          
+            <a href="#"
+            target='_blank'
+            rel="noopener noreferrer nofollow"
+            aria-label='Vciso facebook'
+            titles="Vciso Facebook" >
+            
+            <img
+             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Icon_Facebook.svg/1200px-Icon_Facebook.svg.png"
+             alt=""
+             className="Footer__Facebook__Icon"
+              />
+            </a>
+            <a href="#"
+            target='_blank'
+            rel="noopener noreferrer nofollow"
+            aria-label='Vciso facebook'
+            titles="Vciso Facebook" >
+            
+            <img
+             src="https://o.remove.bg/downloads/0cbb8b22-3ce1-48e8-9d6f-6b4726fbca60/mrg45j-instagram-black-logo-free-download-logo-instagram-11563241212uripztafmg-removebg-preview.png"
+             alt=""
+             className="Footer__Facebook__Icon"
+              />
+            </a>
+            <a href="#"
+            target='_blank'
+            rel="noopener noreferrer nofollow"
+            aria-label='Vciso facebook'
+            titles="Vciso Facebook" >
+            
+            <img
+             src="https://o.remove.bg/downloads/1127b96c-a2b5-46a1-9a8e-54776325cafc/204-2040928_logo-twitter-circle-grey-current-twitter-logo-png-removebg-preview.png"
+             alt=""
+             className="Footer__Facebook__Icon"
+              />
+            </a>
+            <a href="#"
+            target='_blank'
+            rel="noopener noreferrer nofollow"
+            aria-label='Vciso facebook'
+            titles="Vciso Facebook" >
+            
+            <img
+             src="https://o.remove.bg/downloads/8a1dcec6-ecd2-4cc1-a0f0-07fbd43a5fa7/youtube-play-logo-svg-11549681601n5d2blewku-removebg-preview.png"
+             alt=""
+             className="Footer__Facebook__Icon"
+              />
+            </a>
+                 
         </div>
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap text-center lg:text-left">
-            <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
-              <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                Find us on any of these platforms
-              </h5>
-              <div className="mt-6 lg:mb-0 mb-6">
-                <button
-                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-twitter"></i>
-                </button>
-                <button
-                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-facebook-square"></i>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-dribbble"></i>
-                </button>
-                <button
-                  className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-github"></i>
-                </button>
-              </div>
-            </div>
-         
-          </div>
-          <hr className="my-6 border-blueGray-300" />
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Copyright © {new Date().getFullYear()} KriAuto
-                <a
-                  href="https://www.creative-tim.com?ref=nnjs-footer"
-                  className="text-blueGray-500 hover:text-blueGray-800"
-                >
-                  
-                </a>
-                .
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </>
+        <div className="Footer__grid"/>
+        <div className="Footer__Bottom__text">
+        <p>
+          &copy; {new Date().getFullYear()} Vciso - All rights reserved.
+        </p>
+      </div>
+    </div>
   );
 }
+
+export default Footer;

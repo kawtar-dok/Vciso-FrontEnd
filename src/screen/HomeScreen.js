@@ -5,7 +5,7 @@ import LoginScreen from './LoginScreen'
 import Cover from '../components/Banner/Cover'
 import BannerDef from '../components/Banner/BannerDef'
 import BannerAbonner from '../components/Banner/BannerAbonner'
-//import Footer from '../components/Footers/Footer'
+import Footer from '../components/Footers/Footer'
 
 function HomeScreen() {
   return (
@@ -17,8 +17,11 @@ function HomeScreen() {
         <LoginScreen />
         <Cover />
         <BannerDef />
+        
         <BannerAbonner />
+        
          {/*Footer<Footer />*/}
+         <Footer />
         
     </div>
   )
