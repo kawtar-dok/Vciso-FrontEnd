@@ -8,6 +8,14 @@
    
    
 }
+.AcountScreen__Style {
+    position: absolute;
+    left: 926px;
+    top: 140px;
+    width: 10%;
+    padding: 10px 20px;
+    z-index: 1;
+}
 .AcountScreen__body {
     position: absolute;
     margin-top: -270px;

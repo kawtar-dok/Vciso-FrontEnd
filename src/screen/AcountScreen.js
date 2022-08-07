@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Nav from '../components/Navbar/Nav'
 import "./AcountScreen.css"
 import Particle from "../components/Tsparticules/Particle"
-
+import coverStyle from "../assets/style/styleCard3.png"
 function AcountScreen() {
   const signUp = (e) => {
     e.preventDefault();
@@ -25,6 +25,14 @@ function AcountScreen() {
         <h1>Create Your Account</h1>
         <h3>Use your email and password.</h3>
       </div>
+      <img
+          whileHover={{
+            scale: 1.1,
+          }}
+          alt=".."
+          className="AcountScreen__Style"
+          src={coverStyle}
+        />
       <div
         className="AcountScreen__Up"
         whileHover={{

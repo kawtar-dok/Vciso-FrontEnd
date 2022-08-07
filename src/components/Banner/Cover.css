@@ -3,8 +3,10 @@
   top: 100%;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 95%;
   z-index: -1;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg') center no-repeat;
+  background-size: cover;
  
 }
 .Cover__background__image {

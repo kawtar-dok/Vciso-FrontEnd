@@ -16,10 +16,10 @@ export default function HeaderPlans() {
               <div  className="HeaderPlans__plan1" >
  
                   <CardPlans
-                    statTitleModel="Vciso (No Waiting)"
+                    statTitleModel="Basic Vciso"
                     statMarque="Get First Month Free, Then"
-                    statPrice="$300.99"
-                    statDescripiron="This plan lets you use a specific services."
+                    statPrice="$600.99"
+                    statDescripiron="This plan lets you use exclusive services, and an instantly answers without wasting your time."
                   />
               </div>
               <div   className="HeaderPlans__plan2">
@@ -28,8 +28,8 @@ export default function HeaderPlans() {
                   
                     statTitleModel="Vciso"
                     statMarque="Get First Month Free, Then"
-                    statPrice="$600.99"
-                    statDescripiron="This plan lets you use exclusive services, and an instantly answers without wasting your time."
+                    statPrice="$300.99"
+                    statDescripiron="This plan lets you use a specific services."
                   />
               </div>
               <div className="HeaderPlans__plan3">

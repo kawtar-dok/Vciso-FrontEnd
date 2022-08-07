@@ -1,0 +1,65 @@
+.BannerAbout__background {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    z-index: -1;
+   
+  }
+.BannerAbout__background__Style {
+    position: relative;
+    left: 75%;
+    top: 35%;
+    width: 25%;
+  
+  }
+.BannerAbout__background__image {
+    position: absolute;
+    left: -50px;
+    top: 180px;
+    width: 40%;
+    padding: 10px 20px;
+    z-index: 1;
+  
+  }
+.BannerAbout__background__bg {
+    position: absolute;
+    margin-right: 800px;
+    background-color: #27A9A9;
+    border-radius: 25px;
+    text-align: justify;
+    margin-left: 390px;
+    top: 137%;
+    padding: 135px 245px;
+    z-index: -1;
+  }
+.BannerAbout__background__body {
+    position: absolute;
+    margin-top: 10px;
+    max-width: 500px;
+    margin-left: 250px;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 110px ;
+}
+  
+.BannerAbout__background__body > h1 {
+    letter-spacing: 2.2px;
+    color: #27A9A9;
+    text-align: justify;
+    font-size : 4.5em; 
+    margin-left: 45px;
+    font-family: "YAD1aYG82rc 0", _fb_, auto;
+}
+.BannerAbout__background__body > h3 {
+    text-align: justify;
+    margin-left: 45px;
+    font-size: 1.4rem;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    font-family: "YAD1aYG82rc 0", _fb_, auto;
+}
+  
+  
