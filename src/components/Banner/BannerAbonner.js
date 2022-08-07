@@ -1,6 +1,6 @@
 import React from "react";
 import "./BannerAbonner.css";
-import logoV from "../../assets/img/Asset_5.png";
+import pay from "../../assets/style/styleCardPay.png";
 //import { motion } from 'framer-motion';
 
 /*
@@ -26,6 +26,14 @@ function BannerAbonner() {
         src={coverHumaans}
         />*/}
         </div>
+        <img
+          whileHover={{
+            scale: 1.1,
+          }}
+          alt=".."
+          className="BannerAbonner__Style"
+          src={pay}
+        />
         <div className="BannerAbonner__Table">
          <div className="BannerAbonnerPopular__ui"/>
           <table>

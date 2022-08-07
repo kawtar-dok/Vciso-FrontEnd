@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./LoginScreen.css";
 import { motion } from "framer-motion";
-
+import icon from "../assets/style/bg.png";
 
 //components
 
@@ -61,7 +61,16 @@ function LoginScreen() {
               >
                 Get Started
               </motion.button>
+              
             </div>
+          {/*  <img
+          whileHover={{
+            scale: 1.1,
+          }}
+          alt=".."
+          className="LoginScreen__Style"
+          src={icon}
+        />*/}
           </>
        
       </motion.div>
