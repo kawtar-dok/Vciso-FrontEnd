@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "../Navbar/Nav.css";
+import "./Nav.css";
 import { motion } from "framer-motion";
 import companyLogo from "../../assets/img/logo.png";
 import { useNavigate } from "react-router-dom";
+
+
 
 function Nav() {
 const [show, handleShow] = useState(false);
@@ -27,8 +29,11 @@ useEffect(() => {
 
 
   return (
-    <>
-    <div className={`nav ${show && "nav__black" }`}>
+    <> 
+     
+    <div className={`nav ${show && "nav__black" }`}
+   
+    >
       <div classname="nav__contents">
        <img
         onClick={() => navigate('/')}
@@ -36,6 +41,8 @@ useEffect(() => {
         className="Nav__logo"
         src={companyLogo}
       />
+    { /* <WhiteMode />*/}
+
       <motion.button className="Nav__button" 
       onClick={() => navigate('/signin')}
         whileHover={{ 
@@ -45,6 +52,7 @@ useEffect(() => {
       >
         Sign In
       </motion.button>
+     
       </div>
     </div>
     </>

@@ -2,7 +2,6 @@ import React from 'react'
 import './HomeScreen.css'
 import Nav from '../components/Navbar/Nav'
 import LoginScreen from './LoginScreen'
-import Cover from '../components/Banner/Cover'
 import BannerDef from '../components/Banner/BannerDef'
 import BannerAbonner from '../components/Banner/BannerAbonner'
 import Footer from '../components/Footers/Footer'
@@ -14,14 +13,12 @@ function HomeScreen() {
         
         {/*Nav */ }
          <Nav/>
-      
-        <LoginScreen />
-          {/* <Cover />*/ }
+         <LoginScreen />
+          {/* <Cover />*/ } 
         <BannerAbout />
         <BannerDef />
-        
         <BannerAbonner />
-        
+       
          {/*Footer<Footer />*/}
          <Footer />
         

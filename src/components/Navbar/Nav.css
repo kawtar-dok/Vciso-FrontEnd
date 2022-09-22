@@ -1,35 +1,34 @@
 .Nav__logo {
     position: fixed;
     left: 0;
+    top: 30px;
     width: 150px;
     object-fit: contain;
-    padding-left: 10px;
-    cursor: pointer;
-   
+    padding-left: 30px;
+    cursor: pointer; 
 }
-
 .Nav__button {
-    position: fixed;
-    right: 20px;
-    top: 20px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: white;
-    cursor: pointer;
-    font-weight: 600;
-    border: none;
-   
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 11px 20px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-color: none;
+  border-radius: 25px;
 }
 .Nav__button::before,
 .Nav__button::after {
   content: '';
   position: absolute;
+  border-radius: 7px;
   top: -4px;
-  left: -4px;
+  left: -3px;
   background: linear-gradient(45deg,#fff,#34A976,#89A9A3,rgba(247, 247, 25, 0.963),#3C534F,#286CA0);
   background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
+  width: calc(100% + 5px);
+  height: calc(100% + 6px);
   z-index: -1;
   animation: animate 25s linear infinite;
 }
@@ -63,13 +62,12 @@
     padding: 20px;
     width: 100%;
     height: 40px;
-    z-index: 1;
+    z-index: 1000;
     /*Animation*/
     transition-timing-function: ease-in;
     transition: all 0.5s;
-    
 }
 .nav__black {
-  background-color: rgb(0, 0, 0);
+  background-color: #323B3E;
   opacity: 1;
 }

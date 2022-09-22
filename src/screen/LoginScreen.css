@@ -9,8 +9,8 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: url('https://www.blush-int.com/templates/yootheme/cache/slide-1-3997f66b.jpeg') center no-repeat;
-    background-size: cover;
+    background: rgba(255, 255, 255, 0.537);
+    
 }
 
 .LoginScreen__gradient {
@@ -18,22 +18,16 @@
    
     z-index: 1;
     height: 100vh;
-    background: rgba( 0, 0 , 0 , 0.85);
-    background-image: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0) 60%,
-        rgba(0, 0, 0, 0.8) 100%
-    );
+
 }
 .LoginScreen__body {
     position: absolute;
-    top: 30%;
+    top: 34%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     z-index: 1;
-    color: #fff;
+    
     padding: 20px ;
     left: 0;
     right: 0;
@@ -41,11 +35,13 @@
 .LoginScreen__body > h1 {
     font-size : 3.2em;
     margin-bottom: 20px;
+    color: #fff;
 }
 .LoginScreen__body > h2 {
     font-size: 2.2rem;
     font-weight: 400;
     margin-bottom: 30px;
+    color: #fff;
     font-family: 'Graphik Web', 'Graphik', sans-serif;
 }
 .LoginScreen__body > h3 {
@@ -75,8 +71,7 @@
     padding: 16px 20px;
     font-size: 1rem;
     background-color:  #2CE290 #2a9692 #00ED82
-    
-    ;
+ ;
     color: #fff;
     border: none;
     font-weight: 600;
@@ -85,15 +80,16 @@
 .LoginScreen__getStart {
 
     padding: 16px 20px;
-    font-size: 1rem;
+    font-size: 1.175rem;
     background-color: #00ED82;
     color: #fff;
-    width: 50%;
+    width: 55%;
     border: none;
     max-width: 600px;
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
     margin: 20px;
+    border-radius: 5px;
 }
 .LoginScreen__Style {
     position: relative;

@@ -30,7 +30,6 @@ function SignInScreen() {
         <form>
             <h1>Sign In</h1>
             <input placeholder='Email' type='email' />
-            <input placeholder='Username' type='Username' />
             <input placeholder='Password' type='password' />
             <button type='submit'
             onClick={signIn}>Sign In</button>
